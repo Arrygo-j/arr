@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1-static-appearance",
+  "project": "无职转生：第二人生",
+  "project_engine": "Godot 4.x",
+  "character_id": "eris",
+  "appearance_id": "roa",
+  "source_type": "canon_character",
+  "source_review": "待确认对应时期原著截图",
+  "sprite": {
+    "path": "res://assets/characters/overworld/eris/roa/walk_4dir_3f.png",
+    "frame_size_px": {
+      "width": 64,
+      "height": 96
+    },
+    "atlas": {
+      "columns": 3,
+      "rows": 4,
+      "direction_rows": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "frame_columns": [
+        "left_step",
+        "neutral",
+        "right_step"
+      ]
+    },
+    "frame_indices_zero_based": {
+      "left_step": 0,
+      "neutral": 1,
+      "right_step": 2
+    },
+    "walk_sequence": [
+      1,
+      0,
+      1,
+      2
+    ],
+    "animation_fps_trial": 7,
+    "ground_anchor": {
+      "horizontal": "center",
+      "vertical": "foot_baseline",
+      "foot_y_px": null,
+      "note": "必须根据输出帧实际内容测定，不能猜测"
+    },
+    "texture_filter": "按现有像素瓦片风格测试后确认",
+    "game_scale": "待测试地图验证后填写",
+    "status": "placeholder"
+  },
+  "portrait": {
+    "base_path": "res://assets/characters/portraits/eris/roa/",
+    "expressions": [
+      "normal",
+      "smile",
+      "angry",
+      "surprised"
+    ],
+    "status": "placeholder"
+  },
+  "battle": {
+    "base_path": "res://assets/characters/battle/eris/roa/",
+    "required_in_P0": false,
+    "status": "deferred"
+  },
+  "quality_gates": [
+    "reference_checked",
+    "same_stage_outfit",
+    "four_directions_consistent",
+    "equal_frame_canvas",
+    "foot_anchor_aligned",
+    "in_godot_tested"
+  ],
+  "notes": "当前仅为固定外观的资源结构样例，未生成游戏PNG；时间成长系统暂缓。",
+  "time_growth": {
+    "enabled": false,
+    "auto_age_increase": false,
+    "auto_appearance_switch": false,
+    "age_based_events": false,
+    "note": "外观由初始场景配置指定，当前阶段禁止以游戏天数/年份计算人物年龄或资源切换。"
+  }
+}

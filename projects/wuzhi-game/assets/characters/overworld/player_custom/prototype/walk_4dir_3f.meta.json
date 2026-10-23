@@ -1,0 +1,11 @@
+{
+  "mode": "placeholder",
+  "path": "assets\\characters\\overworld\\player_custom\\prototype\\walk_4dir_3f.png",
+  "size": [
+    192,
+    384
+  ],
+  "character_id": "player_custom",
+  "appearance_id": "prototype",
+  "generated_at": "2026-10-23T22:28:48"
+}

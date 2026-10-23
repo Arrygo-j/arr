@@ -1,0 +1,11 @@
+{
+  "mode": "placeholder",
+  "path": "assets\\characters\\overworld\\npc_villager_m\\base\\walk_4dir_3f.png",
+  "size": [
+    192,
+    384
+  ],
+  "character_id": "npc_villager_m",
+  "appearance_id": "base",
+  "generated_at": "2026-10-23T22:28:51"
+}

@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.1-static-appearance",
+  "generated_by": "tools/build_data.py",
+  "time_growth": {
+    "enabled": false,
+    "auto_age_increase": false,
+    "auto_appearance_switch": false,
+    "age_based_events": false
+  },
+  "characters": {
+    "eris": {
+      "roa": {
+        "display_name": "爱丽丝",
+        "source_type": "原著人物",
+        "batch": "P0",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/eris/roa/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/eris/roa/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/eris/roa/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "npc_guard": {
+      "town": {
+        "display_name": "npc_guard",
+        "source_type": "",
+        "batch": "",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/npc_guard/town/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/npc_guard/town/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/npc_guard/town/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "npc_merchant": {
+      "market": {
+        "display_name": "npc_merchant",
+        "source_type": "",
+        "batch": "",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/npc_merchant/market/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/npc_merchant/market/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/npc_merchant/market/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "npc_villager_f": {
+      "base": {
+        "display_name": "npc_villager_f",
+        "source_type": "",
+        "batch": "",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/npc_villager_f/base/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/npc_villager_f/base/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/npc_villager_f/base/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "npc_villager_m": {
+      "base": {
+        "display_name": "npc_villager_m",
+        "source_type": "",
+        "batch": "",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/npc_villager_m/base/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/npc_villager_m/base/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/npc_villager_m/base/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "player_custom": {
+      "prototype": {
+        "display_name": "玩家自定义主角",
+        "source_type": "游戏原创",
+        "batch": "P0",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/player_custom/prototype/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/player_custom/prototype/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/player_custom/prototype/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "roxy": {
+      "tutor": {
+        "display_name": "洛琪希",
+        "source_type": "原著人物",
+        "batch": "P0",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/roxy/tutor/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/roxy/tutor/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/roxy/tutor/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "rudeus": {
+      "child": {
+        "display_name": "鲁迪乌斯",
+        "source_type": "原著人物",
+        "batch": "P0",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/rudeus/child/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/rudeus/child/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/rudeus/child/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    },
+    "sylphie": {
+      "child": {
+        "display_name": "希露菲",
+        "source_type": "原著人物",
+        "batch": "P0",
+        "status": "placeholder",
+        "sprite": {
+          "path": "res://assets/characters/overworld/sylphie/child/walk_4dir_3f.png",
+          "frame_size": [
+            64,
+            96
+          ],
+          "columns": 3,
+          "rows": 4,
+          "row_order": [
+            "down",
+            "left",
+            "right",
+            "up"
+          ],
+          "col_order": [
+            "left_step",
+            "neutral",
+            "right_step"
+          ],
+          "walk_sequence": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fps": 7,
+          "ground_anchor": "foot_baseline",
+          "texture_filter": "nearest"
+        },
+        "portrait": {
+          "base_path": "res://assets/characters/portraits/sylphie/child/",
+          "expressions": [
+            "normal",
+            "smile",
+            "angry",
+            "surprised"
+          ],
+          "status": "pending"
+        },
+        "battle": {
+          "base_path": "res://assets/characters/battle/sylphie/child/",
+          "status": "deferred"
+        },
+        "quality_gates": [
+          "reference_checked",
+          "same_stage_outfit",
+          "four_directions_consistent",
+          "equal_frame_canvas",
+          "foot_anchor_aligned",
+          "in_godot_tested"
+        ]
+      }
+    }
+  }
+}

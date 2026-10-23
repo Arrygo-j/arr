@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/characters/npc_controller.gd" id="1_npc"]
+[ext_resource type="Script" path="res://scripts/characters/character_visual.gd" id="2_visual"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_body"]
+size = Vector2(20, 12)
+
+[node name="NpcBase" type="CharacterBody2D"]
+y_sort_enabled = true
+motion_mode = 1
+script = ExtResource("1_npc")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -6)
+shape = SubResource("RectangleShape2D_body")
+
+[node name="Visual" type="AnimatedSprite2D" parent="."]
+script = ExtResource("2_visual")

@@ -120,3 +120,22 @@
 | D2 | 参考图形态按「四方向静态图」接收 | 你能提供的最小可用集合；可支撑占位链路 |
 | D3 | 首轮只跑 `rudeus:child` | 规格未定稿时批量生产返工成本高 |
 | D4 | 暂缓名单以 CSV / `00_先读我` 为准 | 与包内主口径一致；xlsx 待修正 |
+
+## 九、骨架落地记录（2026-10-23）
+
+工程已建并跑通验证：
+
+| 项目 | 结果 |
+|---|---|
+| Godot 工程 | 4.7.2，`projects/wuzhi-game/project.godot`，GL Compatibility，默认纹理过滤 Nearest |
+| 场景 | `player.tscn`、`npc_base.tscn`、`dev_tests/character_motion_test.tscn`（32px 网格测试地图） |
+| 数据层 | 44 人物 / 29 外观任务 / 12 NPC 模板 / 9 条 runtime manifest |
+| 占位图集 | P0 九项各一套 192×384 RGBA 图集，状态记为 `placeholder` |
+| 冒烟测试 | `tests/smoke_test.gd`，83 项检查全部通过 |
+| 实机画面 | `.screenshots/motion_test.png`（本地，不入库） |
+
+尚未验证（需人工）：行走流畅度、门口遮挡、桌椅尺寸、真实地图下的比例。
+在正式美术到位前，上述均为**占位**，不能标记为「已通过」。
+
+工具链：`tools/build_atlas.py`（占位/静态图→图集）、`tools/build_data.py`（CSV→JSON）、
+`tools/validate_data.py`（ID/引用/图集规格/禁用字段校验）。

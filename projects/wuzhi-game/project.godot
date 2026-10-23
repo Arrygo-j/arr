@@ -1,0 +1,31 @@
+; Engine configuration file.
+; Godot 4.7 项目《无职转生：第二人生》
+; 说明：本工程为人物系统骨架，地图为开发期测试场景。
+
+config_version=5
+
+[application]
+
+config/name="Wuzhi Game"
+config/description="《无职转生》题材人生 RPG —— 人物系统骨架"
+run/main_scene="res://scenes/dev_tests/character_motion_test.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+InputSetup="*res://scripts/core/input_setup.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0

@@ -1,0 +1,11 @@
+{
+  "mode": "placeholder",
+  "path": "assets\\characters\\overworld\\npc_merchant\\market\\walk_4dir_3f.png",
+  "size": [
+    192,
+    384
+  ],
+  "character_id": "npc_merchant",
+  "appearance_id": "market",
+  "generated_at": "2026-10-23T22:28:51"
+}

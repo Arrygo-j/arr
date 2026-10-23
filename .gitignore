@@ -18,3 +18,7 @@ node_modules/
 dist/
 build/
 *.log
+
+## Godot 缓存与本地截图
+projects/wuzhi-game/.godot/
+projects/wuzhi-game/.screenshots/

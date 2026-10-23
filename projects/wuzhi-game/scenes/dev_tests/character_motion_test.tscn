@@ -1,0 +1,70 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/dev/test_world.gd" id="1_world"]
+[ext_resource type="PackedScene" path="res://scenes/characters/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://scenes/characters/npc_base.tscn" id="3_npc"]
+
+[node name="CharacterMotionTest" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_world")
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+position = Vector2(480, 420)
+character_id = "rudeus"
+appearance_id = "child"
+
+[node name="NpcGuard" parent="." instance=ExtResource("3_npc")]
+position = Vector2(384, 320)
+character_id = "npc_guard"
+appearance_id = "town"
+display_name = "守卫"
+
+[node name="NpcMerchant" parent="." instance=ExtResource("3_npc")]
+position = Vector2(224, 624)
+character_id = "npc_merchant"
+appearance_id = "market"
+display_name = "商人"
+
+[node name="NpcVillagerM" parent="." instance=ExtResource("3_npc")]
+position = Vector2(704, 512)
+character_id = "npc_villager_m"
+appearance_id = "base"
+display_name = "男居民"
+
+[node name="NpcVillagerF" parent="." instance=ExtResource("3_npc")]
+position = Vector2(768, 544)
+character_id = "npc_villager_f"
+appearance_id = "base"
+display_name = "女居民"
+
+[node name="Eris" parent="." instance=ExtResource("3_npc")]
+position = Vector2(608, 256)
+character_id = "eris"
+appearance_id = "roa"
+display_name = "爱丽丝"
+
+[node name="Roxy" parent="." instance=ExtResource("3_npc")]
+position = Vector2(352, 640)
+character_id = "roxy"
+appearance_id = "tutor"
+display_name = "洛琪希"
+
+[node name="Sylphie" parent="." instance=ExtResource("3_npc")]
+position = Vector2(432, 640)
+character_id = "sylphie"
+appearance_id = "child"
+display_name = "希露菲"
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Hint" type="Label" parent="HUD"]
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 760.0
+offset_bottom = 40.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.92)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 16
+text = "WASD / 方向键移动      E 交互（靠近 NPC）"
